@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/labelTitle"
         android:id="@+id/textView"
         android:layout_margin="16dp"
         android:layout_gravity="center_horizontal" />
@@ -16,54 +16,60 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Spotify Streamer"
-        android:id="@+id/spotifyAppButton"
-        android:onClick="onSpotifyAppButtonClick"
+        android:text="@string/popularMoviesApp"
+        android:id="@+id/moviesAppButton"
+        android:onClick="onClick"
+        android:layout_margin="4dp"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="#F08C35" />
+        android:background="#F08C35" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Scores App"
-        android:onClick="onScoresAppButtonClick"
+        android:text="@string/scoresApp"
+        android:onClick="onClick"
         android:id="@+id/scoresAppButton"
+        android:layout_margin="4dp"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="#F08C35" />
+        android:background="#F08C35" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Library App"
-        android:onClick="onLibraryAppBbuttonClick"
+        android:text="@string/libraryApp"
+        android:onClick="onClick"
         android:id="@+id/libraryAppButton"
+        android:layout_margin="4dp"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="#F08C35" />
+        android:background="#F08C35" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Build it Bigger"
-        android:onClick="onBuildAppButtonClick"
+        android:text="@string/buildBiggerApp"
+        android:onClick="onClick"
         android:id="@+id/buildAppButton"
+        android:layout_margin="4dp"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="#F08C35" />
+        android:background="#F08C35" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="XYZ Reader"
-        android:onClick="onReaderAppButtonClick"
+        android:text="@string/readerApp"
+        android:onClick="onClick"
         android:id="@+id/readerAppButton"
+        android:layout_margin="4dp"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="#F08C35" />
+        android:background="#F08C35" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Capstone"
-        android:onClick="onCapstoneAppBbuttonClick"
+        android:text="@string/capstoneApp"
+        android:onClick="onClick"
         android:id="@+id/capstoneAppButton"
+        android:layout_margin="4dp"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="#F08C35" />
+        android:background="#F08C35" />
 </LinearLayout>
